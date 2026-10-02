@@ -47,7 +47,7 @@ python -m pytest
 
 The queries are in the `sql/` folder. Each file has a one-line note on the reasoning.
 
-- `sql/setup.sql`: practice tables and sample data
+- `sql/setup.sql`: tables and sample data
 - `sql/01_orders_per_user.sql`: each user's name with their order count (join)
 - `sql/02_orders_by_status.sql`: order count and total amount per status (aggregation)
 - `sql/03_above_average_users.sql`: users with an order above the average amount (subquery)
@@ -55,8 +55,8 @@ The queries are in the `sql/` folder. Each file has a one-line note on the reaso
 To try them:
 
 ```bash
-sqlite3 practice.db < sql/setup.sql
-sqlite3 practice.db < sql/01_orders_per_user.sql
+sqlite3 sql.db < sql/setup.sql
+sqlite3 sql.db < sql/01_orders_per_user.sql
 ```
 
 ## Project layout

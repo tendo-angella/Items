@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 items.db
 .pytest_cache/
+sql.db
